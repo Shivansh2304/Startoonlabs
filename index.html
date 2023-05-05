@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="box">
+        <div class="header">
+            <h3>Enter Value</h3>
+            <input type="text" id="input-value" placeholder="Input Value">
+            <input type="text" id="max-value" placeholder="Max Value">
+            <button onclick="createGraph()">Create Graph</button>
+        </div>
+
+
+        <div class="graph">
+          <h3>Graphs</h3>
+
+          <div id="foot">
+
+          <div class="vertical-bar-graph">
+            <div class="bar-graph" id="input-bar-graph"></div>
+            <div class="input-value">
+                <span id="input-value-display"></span>
+              </div>
+            <h4 class="nam">Level 1</h4>
+           </div>
+
+
+           <div class="container">
+            <div class="chart-container">
+                <canvas id="pie-chart"></canvas>
+                <div class="input-value">
+                  <span id="input-value-displa"></span>
+                </div>
+            </div>
+            <h4 class="na">Level 2</h4>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="contain">
+                <div class="chart-contain">
+                    <div class="cha"></div>
+                    <div class="input-value">
+                        <span id="input-value-displ"></span>
+                      </div>
+                    <h4 class="nam">Level 3</h4>
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</html>

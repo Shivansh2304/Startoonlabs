@@ -1,0 +1,134 @@
+ .wrapper{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.nam{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+h4{
+    margin: 40px 20px 9px 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    color: #003F73;
+}
+ h3{
+margin: 40px 20px 9px 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #003F73;
+}
+
+input{
+    width: 310px;
+height: 51px;
+background: #C2E3FF;
+border-radius: 4px;
+margin: 20px 20px 9px 40px;
+border: none;
+
+}
+
+.graph{
+    display: flex;
+    flex-direction: column;
+  width: 100vw;
+}
+
+#foot{
+    display: flex;
+     justify-content: space-around;
+}
+
+.vertical-bar-graph {
+
+    height: 275px; /* Set a fixed height for the vertical bar graph container */
+    width: 100px; /* Set a fixed width for the vertical bar graph container */
+    background-color:#C2E3FF; /* Set a background color for the vertical bar graph container */
+    margin: 20px 0px 20px 60px;
+}
+
+.bar-graph {
+    width: 100%; /* Set the width of the bar graph to fill the container */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin-top: 1px; */
+}
+
+.chart-container {
+    width: 275px;
+    height: 275px;
+}
+#input-value-display{
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+
+color: #0d0e0e;
+
+}
+#input-value-displa{
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+
+    color: #0d0e0e;
+
+    }
+    #input-value-displ{
+
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #0d0e0e;
+
+        }
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chart-contain {
+    width: 100px;
+    height: 275px;
+    background: linear-gradient(to top, #008CFF 0%, #C2E3FF 100%);
+    margin-bottom: 20px;
+}
+
+.chart {
+    height: 0;
+    transition: height 1s ease-in-out;
+}
